@@ -1,12 +1,12 @@
 function stop() {
-					alert('TY£¬ÎÒ°®Äã');
+					alert('TYï¼Œæˆ‘çˆ±ä½ ');
 					return false;
 				}
 				document.oncontextmenu = stop;
 
 function checkhtml5() {
 						if ($.browser.msie && parseInt($.browser.version, 10) < 9) {
-							document.body.innerHTML = "<div style=' clear: both; text-align:center; position: relative; height: 50px; margin-top: 30px; padding: 20px; background-color: red; color: white; font-size:20px;'>ÄãµÄä¯ÀÀÆ÷·Ç³£Âäºó£¬²»Ö§³Ö HTML5!<br/>ÇëÊ¹ÓÃ Chrome 14+/IE 9+/Firefox 7+/Safari 4+ ÆäÖĞÈÎÒâÒ»¿îä¯ÀÀÆ÷·ÃÎÊ´ËÒ³Ãæ¡£</a></div>";
+							document.body.innerHTML = "<div style=' clear: both; text-align:center; position: relative; height: 50px; margin-top: 30px; padding: 20px; background-color: red; color: white; font-size:20px;'>ä½ çš„æµè§ˆå™¨éå¸¸è½åï¼Œä¸æ”¯æŒ HTML5!<br/>è¯·ä½¿ç”¨ Chrome 14+/IE 9+/Firefox 7+/Safari 4+ å…¶ä¸­ä»»æ„ä¸€æ¬¾æµè§ˆå™¨è®¿é—®æ­¤é¡µé¢ã€‚</a></div>";
 						}
 					}
 
@@ -17,11 +17,11 @@ function checkhtml5() {
 				});
 			})
 
-//ĞŞ¸ÄÊ±¹âÉ³Â©Ê±¼ä
+//ä¿®æ”¹æ—¶å…‰æ²™æ¼æ—¶é—´
 			var offsetX = $("#loveHeart").width() / 2;
 			var offsetY = $("#loveHeart").height() / 2 - 55;
 			var together = new Date();
-			together.setFullYear(2016, 08, 27);
+			together.setFullYear(2016, 07, 27);
 			together.setHours(22);
 			together.setMinutes(22);
 			together.setSeconds(0);
